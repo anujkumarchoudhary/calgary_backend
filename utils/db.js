@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export const dbConnect = async () => {
-  MONGO_DB =
+ const  MONGO_DB =
     "mongodb+srv://anujkumarchoudhary6699:tOx14jXbBkM4nvDB@ecommerce.45kqnho.mongodb.net/";
 
   try {
