@@ -6,7 +6,7 @@ import userRoutes from "./routes/user.routes.js";
 import profileRoutes from "./routes/profile.route.js";
 
 const app = express();
-
+//test
 dotenv.config();
 app.use(express.json());
 app.use(cors());
